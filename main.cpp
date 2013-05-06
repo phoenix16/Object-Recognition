@@ -16,7 +16,7 @@ int main()
     feat_obj.findBoWFeatures();
 
     Mat responses;
-    classify_obj.useSVM(feat_obj.trainData, feat_obj.trainLabels, feat_obj.testData, responses);
+    classify_obj.useSVM(feat_obj.getTrainData(), feat_obj.getTrainLabels(), feat_obj.getTestData(), responses);
 
     return 0;
 }

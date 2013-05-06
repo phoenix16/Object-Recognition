@@ -28,6 +28,7 @@ private:
     BOWImgDescriptorExtractor bowDE;
     string className;
     enum classNameCode { _accordion, _barrel, _bonsai};
+    Mat trainData, trainLabels, testData, testLabels;
 
     void extractTrainingVocabulary(path basepath);
     void extractBOWFeatures(path basepath, Mat& featureMat, Mat& labels);
@@ -35,7 +36,10 @@ private:
 public:
     BOWfeatures(path trainpath, path testpath, int dictionarySize);
     void findBoWFeatures();
-    Mat trainData, trainLabels, testData, testLabels;
+    const Mat& getTrainData() const;
+    const Mat& getTrainLabels() const;
+    const Mat& getTestData() const;
+    const Mat& getTestLabels() const;
 };
 
 #endif // BOWFEATURES_H

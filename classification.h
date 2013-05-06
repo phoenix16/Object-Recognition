@@ -11,7 +11,7 @@ class classification
 {
 public:
     classification();
-    void useSVM(Mat& trainData, Mat& trainLabels, Mat& testData, Mat& responses);
+    void useSVM(const Mat& trainData, const Mat& trainLabels, const Mat& testData, Mat& responses);
 };
 
 #endif // CLASSIFICATION_H

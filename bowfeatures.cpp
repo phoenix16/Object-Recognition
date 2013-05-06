@@ -34,6 +34,29 @@ BOWfeatures::BOWfeatures(path trainpath, path testpath, int dictionarySize)
 {
 }
 
+const Mat& BOWfeatures::getTrainData() const
+{
+    return trainData;
+}
+
+const Mat& BOWfeatures::getTrainLabels() const
+{
+    return trainLabels;
+}
+
+
+const Mat& BOWfeatures::getTestData() const
+{
+    return testData;
+}
+
+
+const Mat& BOWfeatures::getTestLabels() const
+{
+    return testLabels;
+}
+
+
 // Private function
 // Recursively traverses a folder hierarchy, extracts features from the training images and adds them to the bowTrainer
 void BOWfeatures::extractTrainingVocabulary(path basepath)

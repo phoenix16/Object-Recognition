@@ -7,7 +7,7 @@ classification::classification()
 
 
 
-void classification::useSVM(Mat& trainData, Mat& trainLabels, Mat& testData, Mat& responses )
+void classification::useSVM(const Mat& trainData, const Mat& trainLabels, const Mat& testData, Mat& responses)
 {
     // Set up SVM parameters
     CvSVMParams SVM_params;
