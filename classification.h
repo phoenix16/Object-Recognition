@@ -1,3 +1,7 @@
+/*
+ * Developer : Prakriti Chintalapoodi - c.prakriti@gmail.com 
+*/
+
 #ifndef CLASSIFICATION_H
 #define CLASSIFICATION_H
 
@@ -10,7 +14,6 @@ using namespace std;
 class classification
 {
 public:
-    classification();
     void useSVM(const Mat& trainData, const Mat& trainLabels, const Mat& testData, Mat& responses);
 };
 
