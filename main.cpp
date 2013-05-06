@@ -1,3 +1,7 @@
+/*
+ * Developer : Prakriti Chintalapoodi - c.prakriti@gmail.com 
+*/
+
 #include "bowfeatures.h"
 #include "classification.h"
 
