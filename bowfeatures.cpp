@@ -1,5 +1,8 @@
-#include "bowfeatures.h"
+/*
+ * Developer : Prakriti Chintalapoodi - c.prakriti@gmail.com 
+*/
 
+#include "bowfeatures.h"
 
 // Bag of Words Implementation:
 
