@@ -1,9 +1,13 @@
 /*
  * Developer : Prakriti Chintalapoodi - c.prakriti@gmail.com 
 */
+<<<<<<< HEAD
 
 #include "bowfeatures.h"
+=======
+>>>>>>> f7edd45ba2a8490b334b326473a3b247242aa51f
 
+#include "bowfeatures.h"
 
 // Bag of Words Implementation:
 
