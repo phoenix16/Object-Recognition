@@ -4,13 +4,10 @@
 
 #include "classification.h"
 
-<<<<<<< HEAD
 classification::classification()
 {
 }
 
-=======
->>>>>>> f7edd45ba2a8490b334b326473a3b247242aa51f
 void classification::useSVM(const Mat& trainData, const Mat& trainLabels, const Mat& testData, Mat& responses)
 {
     // Set up SVM parameters
