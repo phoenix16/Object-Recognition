@@ -1,11 +1,12 @@
+/*
+ * Developer : Prakriti Chintalapoodi - c.prakriti@gmail.com 
+*/
+
 #include "classification.h"
 
 classification::classification()
 {
 }
-
-
-
 
 void classification::useSVM(const Mat& trainData, const Mat& trainLabels, const Mat& testData, Mat& responses)
 {
@@ -36,20 +37,3 @@ void classification::useSVM(const Mat& trainData, const Mat& trainLabels, const 
         cout << SVM.predict(testData.row(i), true) << endl;
     }
 }
-
-
-//void useNormalBayes()
-//{
-
-//NormalBayesClassifier classifier;
-//cout << "\nTraining classifier..." << endl;
-//classifier.train(trainData, trainLabels);
-
-//cout << "\nEvaluating classifier..." << endl;
-//Mat responses;
-//classifier.predict(testData, &responses);
-
-//double errorRate = (double) countNonZero(testLabels - responses) / testData.rows;
-//cout << "\nError rate: " << errorRate << endl;
-
-//}
