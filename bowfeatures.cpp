@@ -7,6 +7,7 @@
 // Bag of Words Implementation:
 
 // Step 1: Extract the SURF local feature vectors from each of training images.
+//         Number of SURF descriptor feature vectors in an image =  Number of keypoints found in it using SURF          
 //         Put all the local feature vectors extracted into a single set,
 //         doesn't matter which feature vector came from which training image
 // Step 2: Apply a clustering algorithm (e.g. k-means) over the set of local feature vectors and find N centroid coordinates
