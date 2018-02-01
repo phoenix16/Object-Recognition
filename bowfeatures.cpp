@@ -1,6 +1,6 @@
-/*
- * Developer : Prakriti Chintalapoodi - c.prakriti@gmail.com 
-*/
+//
+// Developer : Prakriti Chintalapoodi - c.prakriti@gmail.com 
+//
 
 #include "bowfeatures.h"
 
@@ -203,5 +203,3 @@ void BOWfeatures::findBoWFeatures()
     extractBOWFeatures(testpath, testData, testLabels);
     cout << "\nTest Data size = [Number of Test images]x[Dictionary size] = " << testData.rows << " x " << testData.cols << endl;
 }
-
-
