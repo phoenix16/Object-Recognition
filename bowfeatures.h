@@ -1,6 +1,6 @@
-/*
- * Developer : Prakriti Chintalapoodi - c.prakriti@gmail.com 
-*/
+//
+// Developer : Prakriti Chintalapoodi - c.prakriti@gmail.com 
+//
 
 #ifndef BOWFEATURES_H
 #define BOWFEATURES_H
